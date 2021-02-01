@@ -7,3 +7,10 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+$tab = $_SERVER;
+foreach( $tab as $item => $value){
+    echo $item . " => " . $value . "<br>";
+}
+
+
